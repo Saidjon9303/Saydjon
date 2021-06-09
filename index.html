@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+
+
+    <style>
+       .row > div 
+        {
+            background-color: teal;
+            margin-top: 10px;
+            color:#fff;
+            border:3px solid red;
+           
+        }
+        .box-1 img:hover 
+        {
+            transform:scale(1.3) rotate(-10deg)
+        }
+        .box-1
+        {
+            overflow:hidden;
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- <div class="container-fluid">
+        x small
+    </div>
+    <div class="container-fluid-sm">small</div>
+    <div class="container-fluid-md"> medium</div>
+    <div class="container-fluid-lg">large</div>
+    <div class="container-fluid-xl">extra large</div>
+    <div class="container-fluid-xxl"> ex extra large</div> -->
+
+
+    <!--Grid system -->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12 col-lg-3 col-sm-6 box-1">
+                <img src="images/car1.jpg" alt="" class="img-fluid w-100 img-thumbnail rounded ">
+            </div>
+           <div class="col-12 col-lg-3 col-sm-6">
+               <img src="images/car2.jpg" alt="" class="img-fluid w-100 rounded">
+           </div>
+           <div class="col-12 col-lg-3 col-sm-6"> 
+               <img src="images/car3.jpg" alt="" class="img-fluid w-100">
+            </div>
+           <div class="col-12 col-lg-3 col-sm-6">
+               <img src="images/car4.jpg" alt="" class="img-fluid w-100">
+            </div>
+
+           <!-- <div class="col">4</div>
+           <div class="col">5</div>
+           <div class="col">6</div>
+           <div class="col">7</div>
+           <div class="col">8</div>
+           <div class="col">9</div>
+           <div class="col">10</div>
+           <div class="col">11</div>
+           <div class="col">12</div>
+           <div class="col">13</div> -->
+
+        
+        </div>
+    </div>
+</body>
+</html>
